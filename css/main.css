@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-blue {
+    background-color: #03a9f4;
+}
+
+.hero-row {
+    display: inline-block;
+    width: 600px;
+    margin-left: auto;
+    background-image: url(..img//backgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: inline-block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftcol {
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+
+.rightcol {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+}
+
+.texts {
+    display: inline-block;
+    width: 600px;
+} 
