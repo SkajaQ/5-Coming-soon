@@ -5,22 +5,15 @@
     padding-bottom: 60px;
 }
 
-.bg-blue {
-    background-color: #03a9f4;
-}
-
 .hero-row {
-    display: inline-block;
+    display: block;
     width: 600px;
     margin-left: auto;
-    background-image: url(..img//backgr.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    margin-right: auto;
 }
 
 .row {
-    display: inline-block;
+    display: block;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +21,7 @@
 
 .leftcol {
     display: inline-block;
-    width: 49%;
+    width: 50%;
     float: left;
 }
 
@@ -47,3 +40,15 @@
     display: inline-block;
     width: 600px;
 } 
+
+.bg-blue {
+    background-color: #03a9f4;
+}
+
+.hero-bg {
+    background-image: url(../img/backgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
