@@ -1,7 +1,12 @@
-form {
+.hero-row > .form {
     display: inline-block;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 20px;
+}
+
+.rightcol > .form {
+    display: inline-block;
+    width: 100%;
 }
