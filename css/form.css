@@ -5,3 +5,8 @@
     margin-right: 5%;
     margin-bottom: 20px;
 }
+
+.rightcol > .form {
+    display: inline-block;
+    width: 100%;
+}
