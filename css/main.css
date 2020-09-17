@@ -75,16 +75,23 @@
     color: white;
 }
 
-.socials > a:hover 
+.socials > a:hover {
+
+}
 
 .footer-texts {
-    display: block;
+    display: inline-block;
     width: 600px;
-    /* float: left; */
-    margin-left: auto;
+    float: left;
+    margin-left: calc((100% - 600px) / 2);
     text-align: center;
-    margin: auto;
+    
 } 
+
+.footer-texts > img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .bg-blue {
     background-color: #03a9f4;
@@ -96,6 +103,72 @@
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
+}
+
+.col-title {
+
+}
+
+.description {
+
+}
+
+.texts {
+    display: inline-block;
+}
+
+.copyright {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+
+.texts > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.copyright > .texts.borders {
+    position: relative;
+}
+/* 
+.copyright > .texts.borders::before {
+    content: '';
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    left: -9px;
+    top: 6px;
+}
+
+.copyright > .texts.borders::after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    left: 129px;
+    top: 6px;
+} */
+
+footer > .container {
+    padding-top: 0px;
+}
+
+.disclaimer {
+    color: #fff;
+}
+
+.disclaimer > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
 }
 
 @media (max-width: 1100px) {
@@ -161,52 +234,4 @@
         width: 100%;
         margin-left: 0;
     }
-}
-
-.col-title {
-
-}
-
-.description {
-
-}
-
-.texts {
-    display: inline-block;
-}
-
-.copyright {
-    display: inline-block;
-    width: 100%;
-    float: left;
-}
-
-.copyright > .texts.borders {
-    position: relative;
-}
-
-.copyright > .texts.borders::before {
-    content: '';
-    width: 1px;
-    height: 12px;
-    display: inline-block;
-    background-color: #fff;
-    position: absolute;
-    left: -9px;
-    top: 6px;
-}
-
-.copyright > .texts.borders::after {
-    content: '';
-    width: 1px;
-    height: 12px;
-    display: inline-block;
-    background-color: #fff;
-    position: absolute;
-    left: 109px;
-    top: 6px;
-}
-
-footer > .container {
-    padding-top: 0px;
 }

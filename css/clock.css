@@ -1,6 +1,8 @@
 .clock {
     display: inline-block;
     width: 100%;
+    float: left;
     margin-bottom: 50px;
+    color: white; 
 }
 
