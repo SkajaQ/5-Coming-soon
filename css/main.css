@@ -68,7 +68,7 @@
     justify-content: space-between; 
 }
 
-.texts {
+.footer-texts {
     display: block;
     width: 600px;
     /* float: left; */
@@ -152,6 +152,10 @@
 }
 
 .description {
+
+}
+
+.texts {
 
 }
 
