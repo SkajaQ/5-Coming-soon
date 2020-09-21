@@ -44,5 +44,12 @@ input {
 
 .msg > input {
     border-bottom: 1px solid #cfcfcf;
+}
 
+::placeholder {
+    color: #CFCFCF;
+}
+
+.form>::placeholder {
+    color: #fff;
 }
