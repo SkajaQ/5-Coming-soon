@@ -1,4 +1,32 @@
 .mouse {
     display: inline-block;
-    
+    width: 50px;
+    height: 80px;
+    border: 5px solid #fff;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.wheel {
+    display: inline-block;
+    width: 5px;
+    height: 15px;
+    background-color: #fff;
+    animation-name: mouseAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.wheel:hover {
+    animation-play-state: paused;
+}
+
+@keyframes mouseAnimation {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 40px;
+        background-color: #fff0;
+    }
 }
