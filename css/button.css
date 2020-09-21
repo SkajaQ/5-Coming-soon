@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    background-color: #ac0f43;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.btn.fa {
+    padding: 15px;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
