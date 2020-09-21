@@ -1,10 +1,11 @@
 .btn {
     display: inline-block;
-    background-color: #ac0f43;
+    background-color: #EA1E63;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     line-height: 20px;
+    font-size: 18px;
 }
 
 .round {
@@ -15,5 +16,5 @@
     padding: 15px;
     width: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
 }
