@@ -1,12 +1,48 @@
 .hero-row > .form {
     display: inline-block;
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #78D2F5;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    color: #78D2F5;
+    border-bottom: 1px solid #78D2F5;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .rightcol > .form {
     display: inline-block;
     width: 100%;
+    color: #CFCFCF;
+}
+
+.name > input {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    margin-top: 35px;
+}
+
+.email > input {
+    display: inline-block;
+    width: 45%;
+    float: right;
+    border-bottom: 1px solid #cfcfcf;
+    margin-top: 35px;
+}
+
+.msg > input {
+    border-bottom: 1px solid #cfcfcf;
+
 }
