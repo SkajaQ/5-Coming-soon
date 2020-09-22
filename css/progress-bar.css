@@ -47,7 +47,7 @@
                 animation-duration: 5s;
             }
 
-@keyframes loading-86 {
+@keyframes loading {
     0% {
         width: 0;
     }
